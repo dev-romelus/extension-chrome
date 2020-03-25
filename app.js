@@ -1,1 +1,1 @@
-console.log("A la recherche d'une alternance !")
+console.log("A la recherche d'une alternance 😃")
