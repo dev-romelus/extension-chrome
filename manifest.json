@@ -1,0 +1,18 @@
+{
+    "manifest_version": 2,
+    "name": "Dev Romelus",
+    "version": "1.0.0",
+    "description": "Tous mes liens de réseaux sociaux",
+    "icons": {"128":"test.jpeg"},
+    "browser_action":{
+        "default_popup": "popup.html"
+    },
+    "permissions": ["activeTab"],
+    "content_scripts": [
+        {
+            "matches": ["<all_urls>"],
+            "js": ["app.js"],
+            "css": ["style.css"]
+        }
+    ]
+}
